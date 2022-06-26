@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+    <author>-tinte-</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>No Teleport</en>
+    </title>
+    <description>
+        <en><![CDATA[No Teleport
+]]></en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <l10n filenamePrefix="l10n/l10n"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua"/>
+    </extraSourceFiles>
+</modDesc>
