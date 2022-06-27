@@ -3,11 +3,11 @@
 
 # Build system
 .fsbuild.yml
-FS22*.zip
 FS22_NoTeleport*
+*.zip
+.env
 
 # IDE
 .idea/
 .atom
-
 *.exe
