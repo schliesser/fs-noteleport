@@ -5,6 +5,7 @@
     <title>
         <en>No Teleport</en>
         <de>Kein Teleportieren</de>
+        <ru>Без телепортации</ru>
     </title>
     <description>
         <en><![CDATA[No Teleport
@@ -19,7 +20,7 @@ Features
 
 For Bugreports please use: https://github.com/schliesser/fs-noteleport/issues
 ]]></en>
-<de><![CDATA[Kein Teleportieren
+        <de><![CDATA[Kein Teleportieren
 
 Das Jahr 3022. Es gibt Geschichten über alte Völker und ihre rudimentären Transportmethoden. Es wird erzählt, dass diese Menschen mit dem Auto zum Ziel fuhren. Manchmal gingen sie auch zu Fuß. Wie altmodisch ist das denn?
 Willkommen im Jahr 2022... Teleportieren ist noch Zukunftsmusik...
@@ -31,6 +32,19 @@ Funktionen
 
 Fehler bitte hier melden: https://github.com/schliesser/fs-noteleport/issues
 ]]></de>
+        <ru><![CDATA[Без телепортации
+
+Шёл 3022 год. Возникают истории о древних людях и их примитивных методах передвижения. В историях говорится, что те люди добирались до своего пункта назначения на каких-то машинах. Иногда даже на своих ногах. Как давно это было?
+Добро пожаловать в 2022 год... О телепортации даже и мечтать пока не смеют...
+
+Возможности:
+- Отключена кнопка "Посетить" в разделе карты.
+- Отключена кнопка "Посетить" в разделе производств.
+- Отключена возможность перемещения между танспортом по клавише TAB.
+
+
+Сообщайте о возможных БАГах мода сюда: https://github.com/schliesser/fs-noteleport/issues
+]]></ru>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
