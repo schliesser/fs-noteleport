@@ -1,6 +1,6 @@
 @ECHO off
 
-SET gameProfile="G:\Dokumente\My Games\FarmingSimulator2022\"
+SET gameProfile="G:\Dokumente\My Games\FarmingSimulator2022\\"
 
 @REM Pack mod
 CALL pack.cmd

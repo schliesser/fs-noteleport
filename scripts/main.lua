@@ -14,14 +14,16 @@ You are not allowed to sell this or a modified version of the mod.
 NoTeleport = {}
 NoTeleport.name = "NoTeleport"
 
-function initNoTeleport()
-    PlaceableHotspot.getBeVisited = Utils.overwrittenFunction(PlaceableHotspot.getBeVisited, NoTeleport.disableFunction)
-    Enterable.getIsEnterableFromMenu = Utils.overwrittenFunction(Enterable.getIsEnterableFromMenu, NoTeleport.disableFunction)
-end
-
--- return false to disable overwritten function
+-- Return false to disable overwritten function
 function NoTeleport:disableFunction()
     return false
 end
 
+function initNoTeleport()
+    PlaceableHotspot.getBeVisited = Utils.overwrittenFunction(PlaceableHotspot.getBeVisited, NoTeleport.disableFunction)
+    Enterable.getIsEnterableFromMenu = Utils.overwrittenFunction(Enterable.getIsEnterableFromMenu, NoTeleport.disableFunction)
+    Enterable.getIsTabbable = Utils.overwrittenFunction(Enterable.getIsTabbable, NoTeleport.disableFunction)
+end
+
+-- Load as early as possible to override the "Enterable" methods
 initNoTeleport()
