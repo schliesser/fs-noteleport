@@ -32,7 +32,7 @@ Funktionen
 
 Fehler bitte hier melden: https://github.com/schliesser/fs-noteleport/issues
 ]]></de>
-        <ru><![CDATA[Без телепортации
+        <ru><![CDATA[Без Телепортации
 
 Шёл 3022 год. Возникают истории о древних людях и их примитивных методах передвижения. В историях говорится, что те люди добирались до своего пункта назначения на каких-то машинах. Иногда даже на своих ногах. Как давно это было?
 Добро пожаловать в 2022 год... О телепортации даже и мечтать пока не смеют...
@@ -48,8 +48,6 @@ Fehler bitte hier melden: https://github.com/schliesser/fs-noteleport/issues
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
-
-    <l10n filenamePrefix="l10n/l10n"/>
 
     <extraSourceFiles>
         <sourceFile filename="scripts/main.lua"/>

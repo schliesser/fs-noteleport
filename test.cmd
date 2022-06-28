@@ -18,6 +18,8 @@ CD %modTestPath%
 UNZIP -o %filename%
 DEL %filename%
 
+IF %ERRORLEVEL% NEQ 0 ( exit 1 )
+
 ECHO Execute TestRunner
 %testRunner% %modTestPath% -g %gamePath% --noPause
 

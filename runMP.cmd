@@ -10,11 +10,8 @@ FOR /F "tokens=*" %%i in ('type .env') do SET %%i
 
 ECHO Copy file to mod folder
 COPY %filename% %gameProfile%mods\
-
-IF %ERRORLEVEL% NEQ 0 ( exit 1 )
-
-ECHO Starting game with savegame %savegameId% ...
-%gameExe% -cheats -autoStartSavegameId %savegameId%
+ECHO Copy file to remote PC
+COPY %filename% %remoteGameProfile%mods\
 
 ECHO Happy Testing: %modName%
 
