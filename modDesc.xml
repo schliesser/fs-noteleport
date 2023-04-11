@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="66">
+<modDesc descVersion="73">
     <author>-tinte-</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>
         <en>No Teleport</en>
         <de>Kein Teleportieren</de>
@@ -18,6 +18,9 @@ Features
 - No "visit" buttons in production menu
 - No vehicle change by tabbing
 
+Changelog 1.0.1.0
+- Create compatibility with Follow Me Mod
+
 For Bugreports please use: https://github.com/schliesser/fs-noteleport/issues
 ]]></en>
         <de><![CDATA[Kein Teleportieren
@@ -29,6 +32,9 @@ Funktionen
 - Keine "Besuchen"-Schaltflächen auf der Karte
 - Keine "Besuchen"-Schaltflächen im Produktionsmenü
 - Kein Fahrzeugwechsel mit Tab
+
+Changelog 1.0.1.0
+- Kompatibilität mit Follow Me Mod herstellen
 
 Fehler bitte hier melden: https://github.com/schliesser/fs-noteleport/issues
 ]]></de>
@@ -42,6 +48,8 @@ Fehler bitte hier melden: https://github.com/schliesser/fs-noteleport/issues
 - Отключена кнопка "Посетить" в разделе производств.
 - Отключена возможность перемещения между танспортом по клавише TAB.
 
+Changelog 1.0.1.0
+- Установите совместимость с Follow Me Mod
 
 Сообщайте о возможных БАГах мода сюда: https://github.com/schliesser/fs-noteleport/issues
 ]]></ru>
