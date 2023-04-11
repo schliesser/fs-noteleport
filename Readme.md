@@ -1,8 +1,8 @@
 # No Teleport
 
-![Farming Simulator 22](https://img.shields.io/badge/farming%20simulator-22-10BEFF?style=flat-square)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/schliesser/fs-noteleport?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/schliesser/fs-noteleport?style=flat-square)
+[![Farming Simulator 22](https://img.shields.io/badge/farming%20simulator-22-10BEFF?style=flat-square)](https://www.farming-simulator.com/)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/schliesser/fs-noteleport?style=flat-square)](https://github.com/schliesser/fs-noteleport/releases)
+[![GitHub issues](https://img.shields.io/github/issues/schliesser/fs-noteleport?style=flat-square)](https://github.com/schliesser/fs-noteleport/issues)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 The year 3022. There are stories about ancient peoples and their rudimentary methods of transportation. It is said that these people went to their destination by car. Sometimes they also walked. How old-fashioned is that?
